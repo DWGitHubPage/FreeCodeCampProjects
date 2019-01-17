@@ -1,4 +1,48 @@
-url = https://codepen.io/robutseverywhere/pen/aPQywX 
+<!DOCTYPE html>
+<html lang='en'>
 
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-https://codepen.io/robutseverywhere/pen/aPQywX
+<div id="main">
+<html lang=<"en">
+
+<div id="John Dwyer">
+  <h1 id="title"><a-tribute>A tribute</a-tribute><br> John Dwyer</h1>
+  
+<h2>"Don't play with people that are anything like you, and don't go looking for gas off the highway unless you actually see a gas station."</h2></div>
+ 
+  <div id="img-div">
+      <img id="image"
+<div class="pic">
+  <img src="https://i.postimg.cc/y8WRSJBC/000john-dwyer.jpg"  alt="John Dwyer with cat.">
+    
+    <div id="img-caption">"I want my fun to be free and out of sight"</div>
+           
+  </div>
+  <div id="tribute-info">
+  <p id="tribute-info">
+    <h4>Hubba Bubba</h4>
+    
+      <h3><li>Born October 3rd, 1974 and originally from Providence, R.I. living in San Francisco for seventeen years before moving recently to Los Angeles.</h3>
+    
+      <h3><li>His main band is Oh Sees or some variation which includes Thee Oh Sees, or OCS, among others which he started in 1997.</h3>
+    
+    <h3><li>Damaged Bug is his other project that is more electronic-influenced.</h3>
+    
+      <h3><li>Dwyer is known for being prolific and other than full albums Oh Sees have put out eight ep's, two live albums, four compilations, and close to a dozen seven-inches.</h3>
+    
+      <h3><li>Dwyer started Castle Rock Records along with Brian Lee Hughes and Matt Jones in 2006.</h3>
+    
+      <h3><li>Oh Sees have put out twenty-one albums as of August, 2018 and four albums with Damaged Bug.</h3>
+    
+      <h3><li>Other bands Dwyer has had includes Coachwhips, Pink and Brown, Zeigenbock Kopf, and the Hospitals.</h3><br><br>
+    
+ <footer class="footer">
+   <h5><a target="_blank" id="tribute-link" href="http://www.theeohsees.com/">Oh Sees</h5>      
+      
+  <h5><a target="_blank" id="tribute-link" href="http://www.damagedbug.com/">Damaged Bug</h5>
+      
+<h5><a target="_blank" id="tribute-link" href="https://www.castlefacerecords.com">Castle Rock Records</h5> 
+      
+  </footer>
+      </div>
