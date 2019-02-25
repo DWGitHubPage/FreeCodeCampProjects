@@ -1,0 +1,114 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+  width: 100%;
+  }
+}
+  
+body {
+  background: url(https://i.postimg.cc/0NR9kcTf/nathan-dumlao-1117084-unsplash.jpg) no-repeat  center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  color: white;
+  display: inline;
+  font-size: 21px;
+  height: 650px;
+  margin: 110px;
+  text-align: center;
+}
+
+ a:link {
+ color: grey;
+}
+
+a:visited {
+  color: #999999;
+}
+
+a:hover {
+  color: grey;
+  font-weight:bold;
+} 
+
+h1 {
+  font-size: 3em;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px grey;
+}
+
+.logo {
+  position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.neo_noom {
+  color: red;
+}
+
+h2 {
+  color: lightblue;
+  font-family: Arial Black;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+iframe {
+  border: black;
+}
+
+form {
+  padding-top: 40px;
+}
+
+#boxes {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-weight: bold;
+  height: 320px;
+  justify-content: center;
+  margin-top: 100px;
+  width: 1300px;
+}
+
+#firstbox, #secondbox, #thirdbox {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-top: 70px;
+  width: calc(100%  / 3);
+}
+
+h4 {
+  color: white;
+  display: inline;
+  font-size: 21px;
+  height: 650px;
+	margin: 180px;
+  text-align: center;
+}
+
+ footer {   
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  margin-top: 1px;
+  padding: 35px;
+}
