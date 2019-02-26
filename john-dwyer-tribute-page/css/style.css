@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(133, 201, 172);
+  background-image: url(https://i.postimg.cc/D0bDZfZr/0000oh-sees-orc-1400_800.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1450px 2450px;
+
+}
+
+#image {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 625px;
+  width: 100px;
+}
+
+#img-caption {
+  font-family: sans serif;
+  text-shadow: 1px 1px grey;
+  font-size: 30px;
+}
+
+html, body{
+  color: 000000;
+  font-family: "Helvetica", Sans Serif;
+  min-width:260px;
+  text-align: center; 
+}
+
+a-tribute {
+  font-size: 26px;
+}
+
+h1 {
+  border-radius: 100%;
+  border-style: double;
+  border-width: 3px;
+  font-family: Sans Serif;
+  font-size: 90px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  position: center;
+  text-shadow: 1px 2px white;
+}
+
+h2 {
+  font-family: sans serif;
+  font-size: 27px; 
+  font-style: italic;
+  padding-bottom: 50px;
+  text-shadow: 1px 1px white;
+}
+
+h3 {
+  color: pink;
+  font-family: sans serif;
+  font-size: 25px;
+  padding: 10px;
+  text-shadow: 1.5px 1.5px black;
+}
+
+h4 {
+  font-family: sans serif;
+  font-size: 79px;
+  transform: rotate(-3deg);
+  text-shadow: 1px 1px purple;
+}
+
+h5 {
+  font-family: sans serif;
+  font-size: 17px;
+  text-shadow: .1px .1px purple;
+}
+
+.footer {
+  border-color: black;
+  border-width: .2em;
+  border-style: ridge;
+  border-radius: 100%;
+  padding-bottom: 120px;
+}
+
+#tribute-link {
+  color: white;
+  float: right;
+  font-size: 28px;
+  padding-right: 250px;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+  width: 100px; 
+} 
+
+a:hover#tribute-link {
+  color: black;
+  font-size: 32px;
+  text-shadow: .8px .8px white;
+}
+a:hover#tribute-link {
+  color: #black;
+  font-size: 31px;
+  text-shadow: 1.2px 1.2px lightgrey;  }
