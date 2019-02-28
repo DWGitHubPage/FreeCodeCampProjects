@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Testing_For_Developers</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang = "en">
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  
+  <head>
+  
+  <title>Testing for Developers</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">  
+    </head>
+  <body>
+   
+   <header id=a class="Testing_for_Developers">Testing for Developers</header>  
+    
+    <div class="containerside">
+		<div class="sidebar">
+		
+ <nav id="navbar"> <header><h1>Types of Tests</header></h1>
+			<ul>
+            
+        <a class="nav-link" href="#Automation_Testing" rel="internal"><li>Automation Testing</li></a>  
+   
+        <a class="nav-link" href="#Benchmarking" rel="internal"><li>Benchmarking</li></a> 
+   
+        <a class="nav-link" href="#Exploratory_Testing" rel="internal"><li>Exploratory Testing</li></a> 
+   
+        <a class="nav-link" href="#Integration_Testing" rel="internal"><li>Integration Testing</li></a>   
+      
+        <a class="nav-link" href="#Load_Testing" rel="internal"><li>Load Testing</li></a> 
+    
+        <a class="nav-link" href="#Manual_Testing" rel="internal"><li>Manual Testing</li></a>   
+       
+        <a class="nav-link" href="#Regression_Testing" rel="internal"><li>Regression Testing</li></a> 
+
+        <a class="nav-link" href="#Stress_Tests" rel="internal"><li>Stress Tests</li></a> 
+
+          
+        <a class="nav-link" href="#Unit_Tests" rel="internal"><li>Unit Tests</li></a>      
+ 		 
+    <a class="nav-link" href="#Volume_Tests" rel="internal"><li>Volume Tests</li></a>   
+   </ul>    
+</nav>	        
+        </div>
+     
+      <main id="main-doc"> <p>
+        
+        <article>There are all sorts of tests that developers can use. A lot of jargon, some things may overlap, and some people might use one term to describe something and someone else might have another. I'm hoping to include as much terminology as I can so it's not such a mystery in a way. It's definitely a mystery to me since I'm still learning all the variety of ways to test things.
+          
+          <p>And some of these tests are not exclusive only to the Python language but I am focusing on that with some of things as well as the code examples are in Python. 
+          
+          
+         <p> <b>Testing can be classified generally into two categories:</b></p>
+          <li><p><b>Black box testing</b> also known as <b>closed box</b> or <b>data driven testing</b>, in which the tester doesn't have access to the inner workings of the test behindd the interface.</li>
+      
+          <li><b>White box testing</b>, also known as <b>clear box</b> or <b>structural testing</b>, in which the tester has access to the actual source code and has a better understanding to ensure that all the internal operations are being performed. An example would be unit tests.
+            <p>
+          <li><b>Grey box testing</b> which is a combination of both black and white testing where the internal structure is partially known.</article>
+         
+        
+        
+        
+         <section class="main-section" id="Automation_Testing">
+           <header><h2>Automation Testing</h2></header><article>
+           
+           </b>Automation testing</b> or <b>Test Automation</b>, tests an application's load, performance, is ideal for large projects, and testing areas multiple times. It's best to run these after manual testing at least once. Automated testing compares expected and actual results as well as creating detailed test reports. One advantage of automated testing is that there is no human interaction needed once the test is happening and with how it can be run multiple times, it's convenient to have it run overnight possibly.
+           
+         
+            <p><b>Reasons to use automated testing</b>:
+   <li>High risk, business critical tests.</li>
+   <li>Tests that need to be run many, many times.</li>
+   <li>And as a result of being run many times, they can be tedious or difficult to perform.</li>
+   <li>They can be very time consuming.</li>
+     
+      
+   <section class="main-section" id="Benchmarking">
+     <header><h2>Benchmarking</h2></header>
+     <p><b>Benchmarking</b> or <b>profiling</b> is a test that measures the performance or speed of something such as hardware components, CPU's, hardrives, RAM, software programs, video cards, browser compatibility, or internet connections. It can be used to compare to another similar product or to ensure that something can support a certain amount of workload, and isn't too sluggish or unresponsive.</p> 
+       
+     <p><b>Benchmarks</b> are not the same as <b>stress tests</b>. Stress tests check to see how much can be done before something breaks or stops functioning while benchmarks are used only to compare performance.
+  
+     <p><b>Types of Benchmarking:</b></p>
+     <li><b>Micro-Benchmarking</b> </li>
+  <p>This type of benchmark is used to test only a small part of a large system, to see how long an operation lasts perhaps, or to check what areas might create a bottleneck. <p>   
+    <li><b>Simulation</b>, sometimes called <b>Macro-benchmarks</b>, are a way to know how much time clients or customers use the client-side part of an application. One problem with simulations is that they do not include variance in terms of customer usage patterns over time although if you have a record of previous simulations, you may be able to compare them with some accuracy.</li><p>
+     
+      
+       <b>Example of Benchmarking in Python by RealPython.</b> 
+         (Source: https://realpython.com/python-testing/)     
+  <code>def test():
+    # ... your code
+
+if __name__ == '__main__':
+    import timeit
+    print(timeit.timeit("test()", setup="from __main__ import test", number=100))</code>     
+     
+     <section class="main-section" id="Exploratory_Testing">
+           <header><h2>Exploratory Testing</h2></header><article>
+        
+        <p>Exploratory testing is testing done in the moment, as a way to discover and learn about issues and code while doing it. It is a process of test design and execution at the same time. It is in this way that exploratory testing is different from scripted tests and there is more freedom and individual testing by the user. To put it in a nutshell, it is about investigating and spontaneous for the most part.
+        
+        
+         <section class="main-section" id="Integration_Testing">
+           <header><h2>Integration Testing</h2></header><article>
+           
+           <p>Sometimes referred to as Integration and Testing(I&T), is a phase of software testing in which individual software modules are grouped together and tested as a group. The purpose is to expose faults between integrated parts together. This type of testing can use black box, white box, and grey box testing methods.
+           
+        
+           <p><b>Example of Integration testing in Python from RealPython.</b>(Source:https://realpython.com/integration-testing-with-pyvows-and-django/ )
+        <code>
+         class PostValidLogin(DjangoHTTPContext):
+
+    def setup(self):
+    self.validUser = Account(username='validuser',password='pass')
+    self.validUser.save()
+
+    def teardown(self):
+    self.validUser.delete()
+
+    def topic(self):
+       return self.post('/login/',
+            {'username':self.validUser.username,
+             'password':self.validUser.password})
+
+    def should_return_valid_login(self, (topic,content)):
+       expect(content).to_equal("Login Successful")     
+          </code>
+     
+           <section class="main-section" id="Load_Testing">
+           <header><h2>Load Testing</h2></header><article><p>
+   
+            <li><b>Load testing</b> tests system performance in terms of response time and system staying power as the workload increases in the form of concurrent users or transactions that would generally happen within the parameters of normal working conditions.
+            </li></p>   
+            
+            <p>Make sure to create realistic situations and to set realistic benchmarks.It will help to understand some of the stresses that might come with the software being used. 
+            
+              <b>Load test example in Python by Steelwiki.</b> (Source: https://steelkiwi.com/blog/load-testing-python-locust-testing-and-bokeh-vis/)  <code>
+     # locustfile.py
+from locust import HttpLocust, TaskSet, task
+
+
+class UserBehavior(TaskSet):
+
+    def on_start(self):
+        self.login()
+
+    def login(self):
+        # GET login page to get csrftoken from it
+        response = self.client.get('/accounts/login/')
+        csrftoken = response.cookies['csrftoken']
+        # POST to login page with csrftoken
+        self.client.post('/accounts/login/',
+                         {'username': 'username', 'password': 'P455w0rd'},
+                         headers={'X-CSRFToken': csrftoken})
+
+    @task(1)
+    def index(self):
+        self.client.get('/')
+
+    @task(2)
+    def heavy_url(self):
+        self.client.get('/heavy_url/')
+
+    @task(2)
+    def another_heavy_ajax_url(self):
+        # ajax GET
+        self.client.get('/another_heavy_ajax_url/',
+        headers={'X-Requested-With': 'XMLHttpRequest'})
+
+
+class WebsiteUser(HttpLocust):
+    task_set = UserBehavior
+              </code>
+        
+        
+        <p> 
+          
+          <section class="main-section" id="Manual_Testing">
+           <header><h2>Manual Testing</h2></header><article>
+  
+<p>This is a type of software testing in which tests are manually executed without automation. It's especially useful for finding bugs and is error free. The best way to test manually is from an end user perspective.        
+            </p>
+            
+            <p>Some open source tools for manual testing(although there are many others):
+            </p>
+            <p><li>
+ <a class="Apache Jmeter"
+                      a href="https://jmeter.apache.org"
+           target="blank">Apache Jmeter</a></p>  
+            
+            <p><li><a class= "Appium"
+                      a href="http://appium.io"
+           target="blank">Appium</a></p>           
+                          <p><li>
+ <a class="Bugzilla"
+                      a href="https://www.bugzilla.org"
+           target="blank">Bugzilla</a></p>                   
+                                         <p><li>
+ <a class="Loadrunner"
+                      a href=""
+           target="blank">Loadrunner</a></p> 
+            
+               <p><li>
+ <a class="Mantis Bug Tracker"
+ a href="https://www.mantisbt.org"
+           target="blank">Mantis Bug Tracker</a></p>  
+            
+            <p><li>
+ <a class="Selenium"
+                      a href="https://www.seleniumhq.org"
+           target="blank">Selenium</a></p>  
+            <p><li>
+ <a class="TestLink"
+                      a href="http://testlink.org"
+           target="blank">TestLink</a></p>  
+          
+            
+              
+            <section class="main-section" id="Regression_Testing">
+     <header><h2>Regression Testing</h2></header>
+     <p> <b>Regression testing</b> is the process of testing changes to computer programs to make sure that older  programs still work with the newer changes or functions added and to make sure there are no new bugs that have been created.</p>
+     
+     <p><b>There are three types of regression:</b>
+    
+     <li><b>Unit Regresion</b>: This type is done during the unit testing phase and code is tested in isolation so it can be checked individually and without any discrepancy.  
+         
+      <p> <li><b>Partial Regression</b>: This type is done to verify that the code works even when the changes have been placed in the code and that it's integrated with the unchanged or pre-existing code.
+     
+    <p><li><b>Complete Regression</b>: Testing that is done when a change in code is complete on a number of modules and also if the change impact on any other module is uncertain. Product as a whole is tested at this point.
+     
+    
+     </article>  
+            
+            
+            
+        <section class="main-section" id="Stress_Tests">
+           <header><h2>Stress Tests</h2></header><article>
+          
+         <li><b>Stress</b> or <b>fatigue testing</b> is similar to <b>load testing</b> except that it tests performance outside of normal working conditions. The purpose of this test is to measure software stability and at what point the software fails and in what ways the software may recover from the failure.</li>        
+          
+          
+          <p><b>Example of Stress Testing from Mantid.</b> (Source: https://www.mantidproject.org/Stress_Tests)
+          <code>
+            
+         import stresstesting
+ from mantidsimple import *
+ 
+ # A simple LoadRaw test
+ class SimpleTest(stresstesting.MantidStressTest):
+   # Redefine the base class runTest function
+   def runTest(self):
+     LoadRaw('GEM38370.raw', 'GEM')
+
+  # Run test 10 times
+  def maxIterations(self):
+    return 10    
+</code>
+      
+         <section class="main-section" id="Unit_Tests">
+           <header><h2>Unit Tests</h2></header><article>  There can be different definitions of what a unit test is but in general it is to test individual or the smallest units of code to ensure that they perform as designed. But even then, you can test one class or classes together. A general rule is that it should be as simple as possible and focused on a single behavior. It's best to break the tests down as small as possible because if you group some together, one might pass while another doesn't and then it makes it difficult to pinpoint the problem. They usually have only one or as few inputs and a single output. Unit tests are usually the first tests that a developer uses. 
+          
+    <p><b>Tips for unit tests:</b>
+      <p>
+      <li>Don't create tests for every single thing. It's best to focus tests on the behavior of a system.</li></p>
+            
+          <li><p>Isolate the development environment from the test environment.</li></p>
+      
+      <p><li>Update your unit tests as you modify your code. If you add a new method or component, write a corresponding test.</li></p>
+     
+      <p><li>When you find a problem in your code, write a test to expose the problem before fixing the code. If that issue appears later, the test will catch it.</li></p>
+      
+      <p><li>Try to cover all paths of a unit, paying attention especially to loop conditions.</li></p>
+      
+      <p><li>As well as testing behavior, you should test performance as well, especially over time as performance might erode over a lnghty period of time.</li></p>
+        
+          <p><li>Make sure to run unit tests a lot. Over time and continuously.</li></p>
+      
+      <br>       There are also some really good guidelines from the book <i>Clean Code</i> by Robert Martin with the acronym <b>F.I.R.S.T.</b>
+            
+    <p><li>  <b>Fast Tests</b> <p>Tests should be fast. They should run quickly. When tests run slow, you won’t want to run them frequently. If you don’t run them frequently, you won’t find problems early enough to fix them easily. You won’t feel as free to clean up the code. Eventually the code will begin to rot.</li></p>
+      
+      <li><b>Independent Tests</b>: <p> These tests should not depend on each other. One test should not set up the conditions for the next test. You should be able to run each test independently and run the tests in any order you like. When tests depend on each other, then the first one to fail causes a cascade of downstream failures, making diagnosis difficult and hiding downstream defects.</li></p>
+      
+      <li><b>Repeatable</b> <p>Tests should be repeatable in any environment. You should be able to run the tests in the production environment, in the QA environment, and on your laptop while riding home on the train without a network. If your tests aren’t repeatable in any environment, then you’ll always have an excuse for why they fail. You’ll also find yourself unable to run the tests when the environment isn’t available.</p>
+
+        <p><b>Self-Validating</b></p> 
+<p>The tests should have a boolean output. Either they pass or fail. You should not have to read through a log file to tell whether the tests pass. You should not have to manually compare two different text files to see whether the tests pass. If the tests aren’t self-validating, then failure can become subjective and running the tests can require a long manual evaluation.</p>
+
+        <p><b>Timely</p></b>
+          <p>The tests need to be written in a timely fashion. Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, then you may find the production code to be hard to test. You may decide that some production code is too hard to test. You may not design the production code to be testable.</p>
+   
+         <p> <b>Unit test example in Python.</b>
+(Source: https://realpython.com/python-testing/)       
+ <code>import unittest
+
+class TestSum(unittest.TestCase):
+
+    def test_sum(self):
+        self.assertEqual(sum([1, 2, 3]), 6, "Should be 6")
+
+    def test_sum_tuple(self):
+        self.assertEqual(sum((1, 2, 2)), 6, "Should be 6")
+
+if __name__ == '__main__':
+    unittest.main()</code>
+      
+ 
+
+             
+             
+          <section class="main-section" id="Volume_Tests">
+           <header><h2>Volume Tests</h2></header><article><p>Volume or Flood testing is a type of software testing in which software is subjected to certain amounts of data, usually a high volume, and analyzes the performance depending on how much data it is receiving. It measures response time and system behavior as it receives large amounts of data.</p>
+            
+       <p><b>Benefits in using Volume testing:</b></p>
+            
+            <li>It can identify bottlenecks in a system.</li></p>
+            
+            <li>Identifies load issues and can save money on application maintenance.</li></p>
+            
+        <li>It makes sure that it can handle whatever data you have in real world applications, an example being a music site in which there could be millions of users either playing or downloading music.</li>  </p>    
+                    
+          <p><b>Different types of volume testing:</b>
+          <p>     
+     <li><b>Spike testing</b> which measures a type of stress testing that measures performance when workloads are substantially increased quickly and repeatedly. The workload is past normal expectations in a short period of time.</li></p>
+                
+          <li><b>Endurance</b> or <b>soak testing</b> evaluates software with a normal workload over an extended period of time. The main purpose is to ensure that memory leaks are not happening which can impair performance or make it fail.</li> 
+           </p>
+           <li><b>Scalability testing</b> is used to make sure the software can handle increases in workloads in either users or data volume in gradual amounts.</li> </p>
+            
+        
+          
+    <a class="Sources" id="Sources">
+    <header>Sources</header>
+           
+      <b><h3>Automation Testing</h3></b><p>
+          <a href="https://www.guru99.com/automation-testing.html">Automation Testing Tutorial: What is, Process, Benefits & Tools</a><p>
+      
+      <a href="https://medium.com/@briananderson2209/best-automation-testing-tools-for-2018-top-10-reviews-8a4a19f664d2">Best Automation Tools for 2019(Top 10 Reviews)</a><p>
+      
+      <a href="https://medium.com/@tedchength/web-automated-testing-in-practice-4af436333ba3">Web Automating in Practice</a><p>
+      
+      <a href="https://smartbear.com/learn/automated-testing/what-is-automated-testing/">What is Automated Testing?</a><p>
+      
+      <b><h3>Benchmarking</h3></b><p>
+     
+      <a href="https://medium.com/front-end-weekly/automated-performance-benchmark-test-for-web-apps-c87cf561c2b4">Automated Performance Benchmark Test for Web Apps</a><p>
+     
+      <a href="http://www.professionalqa.com/benchmark-testing">Benchmark Testing</a><p>
+      
+ <a href="http://www.codeblueprint.co.uk/2016/10/08/what-is-microbenchmark.html">What is a Microbenchmark?</a><p>     
+      
+<a href="https://www.guru99.com/benchmark-testing.html">What is Benchmarking Testing? Test Plan, Tools, Example</a><p>  
+      
+      <b><h3>Exploratory Testing</h3></b>
+      
+      
+      <p><a href="https://medium.com/@ministryoftest/30-tips-to-supercharge-your-exploratory-testing-efforts-7e982446a184">30 Tips to Supercharge your Exploratory Testing Efforts</a>
+      
+          <p><a href="https://www.3pillarglobal.com/insights/exploratory-testing">An Introduction to Exploratory Testing</a>
+            
+    <p><a href="https://medium.com/sears-israel/finding-the-right-balance-in-exploratory-testing-80848858ee0">Finding the Right Balance in Exploratory Testing</a>
+      
+      
+      <p><a href="https://www.agilealliance.org/glossary/exploratory-testing/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'exploratory*20testing))~searchTerm~'~sort~false~sortDirection~'asc~page~1)">What is Exploratory Testing?</a>
+      
+
+        
+        <p><b><h3>Integration Tests</b></h3> 
+         
+            <p> 
+      <a href="http://softwaretestingfundamentals.com/integration-testing/">Integration Testing</a>
+      
+      <p><a href="https://www.guru99.com/integration-testing.html">Integration Testing: What is, Types, Top Down & Bottom Up Example</a> 
+      
+    <p>  <a href="https://medium.com/@Iren.Korkishko/introduction-to-integration-testing-8c66ae64e003">Introduction to Integration Testing</a>
+      
+      <p><a href="https://www.softwaretestinghelp.com/what-is-integration-testing/">What is Integration Testing(Tutorial with Integration Testing Example)</a>
+        
+      <p><b><h3>Load Testing</h3></b>
+        
+        <p><a href="https://medium.com/@sarahelson81/how-to-get-started-with-load-testing-1540611c6417">How to get started with Load Testing?</a>
+        
+        <p><a href="https://medium.com/@rohitkhatana/introduction-to-load-testing-d016a54d8a73">Introduction to Load Testing</a>
+          
+          <p><a href="https://medium.com/slalom-engineering/load-testing-in-a-nutshell-7f7568811217">Load Testing in a Nutshell</a>
+            
+        <p><a href="https://www.blazemeter.com/blog/open-source-load-testing-tools-which-one-should-you-use">Open Source Load Testing Tools: Which One Should You Use?</a>
+          
+     <p><a href="https://stackify.com/what-is-load-testing/">What is Load Testing? Examples, Tutorials & More</a>
+       
+       
+    <b><h3>Manual Testing</h3></b>
+       
+     <p><a href="https://medium.com/oceanize-geeks/manual-testing-process-340173d40141">Manual Testing Process</a>
+      
+      <p><a href="https://www.guru99.com/manual-testing.html">Manual Testing Tutorial for Beginners: Concepts, Types, Tools</a>
+        
+     <p><a href="https://qacomplete.com/resources/articles/what-is-manual-testing/">What is Manual Testing</a>
+       
+       <b><h3>Regression Testing</b></h3>
+       
+   <p><a href="https://www.testbytes.net/blog/types-of-regression-testing/">5 Types of Regression Testing Methods You Should Know</a>
+     
+     <p><a href="https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/">Regression Testing Complete Guide: Tools, Method, and Example</a>
+       
+   <p><a href="https://smartbear.com/learn/automated-testing/what-is-regression-testing/">What is Regression Testing?</a>
+     
+   <p><a href="https://stackify.com/what-is-regression-testing/">What is Regression Testing? Tips, Challenges, Tutorials, & More</a>
+     
+     <b><h3>Stress Tests</b></h3>
+     
+     <p><a href="https://medium.com/@Alibaba_Cloud/introduction-to-stress-testing-a80d115b3715">Introduction to Stress Testing</a>
+       
+       <p><a href="https://medium.com/skyshidigital/stress-testing-is-a-must-6a218886c2ac">Stress Testing is a Must</a>
+       
+       <p><a href="https://www.testbytes.net/blog/stress-testing/">Stress Testing: Why is it Important for your Software?</a>
+       
+       <p><a href="https://www.guru99.com/stress-testing-tutorial.html">What is Stress Testing in Software Testing? Tools, Types, Examples</a>
+      
+        
+         <b><h3>Unit Tests</b></h3>
+           
+           <p><a href="https://medium.com/@lazlojuly/how-to-get-started-with-unit-testing-part-1-7f490bbf560a">How to get started with Unit Testing? Part #1</a>
+             
+           <p><a href="http://softwaretestingfundamentals.com/unit-testing/">Unit Testing</a>
+             
+    <p><a href="https://hackernoon.com/unit-testing-a-simplistic-and-language-agnostic-approach-918edff86d11">Unit Testing: A Simplistic and Language-Agnostic Approach</a>
+      
+         <p><a href="https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters">Unit Testings, How to Write Testable Code and Why it Matters</a>
+      
+      
+      <p><a href="https://www.guru99.com/unit-testing-guide.html">Unit Testing Tutorial: What is, Types, Tools, Example</a>
+      
+      <p><a href="https://smartbear.com/learn/automated-testing/what-is-unit-testing/">What is Unit Testing?</a>
+        
+        
+        <b><h3>Volume Testing</b></h3>
+        
+        <p><a href="https://www.testingbrain.com/blackbox/volume-testing.html">Volume Testing in Software Development</a>
+          
+       <p><a href="https://www.softwaretestinghelp.com/what-is-volume-testing/">Volume Testing Tutorialz: Examples and Volume Testing Tools</a>
+        
+        <p><a href="https://www.guru99.com/volume-testing.html">What is Volume Testing? Learn with Examples</a>
+      
+      
+
+      
+      
+      
+           </main>
+            
+        </section>
+  </body>
+    </html>
+  
+  
+
+</body>
+
+</html>

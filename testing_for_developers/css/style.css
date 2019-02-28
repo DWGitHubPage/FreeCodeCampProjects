@@ -1,0 +1,114 @@
+ div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+}
+
+.sidebar {
+  border-right: 1px solid grey;
+	display flex;
+	flex-direction: column;
+  height: 300px;
+	justify-content: space-around;
+	overflow-x: hidden;
+  width: 200px;
+}
+
+  header {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1.5px 1.5px grey;
+}
+
+#navbar ul{
+  height:90.75%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#navbar li{
+  border: 1px solid;
+  border-bottom-width: 0px;
+  color: black;
+  height: 20px;
+  list-style: none;
+  overflow-x: hidden;
+  padding:10px;
+  padding-left:20px;
+  position: relative;
+  width: 200px;
+}
+
+#navbar a{
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration:none;
+  text-shadow: 1px 1.5px lightgrey;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+h3 {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  #navbar ul{
+  border:1px solid;
+  height:207px;
+}
+
+#navbar{
+ background-color:white;
+ border: none;
+ border-bottom: 2px solid;
+ margin: 0;
+ max-height: 275px;
+ padding: 0;
+ position:absolute;
+ top:0;
+ width:100%;
+ z-index:1;
+}
+  
+#main-doc{
+  margin-left:0px;
+  margin-top:270px;
+  position: relative;
+}
+  
+ #main-doc section {
+/*     padding-top: 240px; */
+  }
+}
+@media only screen and (max-width: 400px) {
+  #main-doc{
+  margin-left:-10px;
+  }
+ 
+}
+code {
+  background-color: #bddfeb;
+  background-image: linear-gradient(to right, pink, #268AFA);
+  border-radius: 5px;
+  border-style: ridge;
+  border-width: 2px 1px;
+  display:block;
+  font-size: 15px;
+  margin:10px;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  text-shadow: none;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+}
