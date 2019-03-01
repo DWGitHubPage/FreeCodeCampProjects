@@ -24,8 +24,9 @@ h1 {
   font-size: 3.5em;
   text-align: center;
   text-shadow: 2px 2px purple;
+  webkit-text-shadow: 5px 5px 15px 0px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
   
-}  
    overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
