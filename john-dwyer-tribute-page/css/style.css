@@ -74,30 +74,18 @@ h5 {
   text-shadow: .1px .1px purple;
 }
 
-.footer {
-  border-color: black;
-  border-width: .2em;
-  border-style: ridge;
-  border-radius: 100%;
-  padding-bottom: 120px;
-}
-
 #tribute-link {
   color: white;
   float: right;
-  font-size: 28px;
-  padding-right: 250px;
+  font-size: 19px;
+  padding-right: 200px;
   text-decoration: none;
-  text-shadow: 2px 2px black;
-  width: 100px; 
+  text-shadow: 3px 3px black;
+  width: 160px; 
 } 
-
-a:hover#tribute-link {
-  color: black;
-  font-size: 32px;
-  text-shadow: .8px .8px white;
+img {
+  border-radius: 50%;
+  padding: 20px;
 }
-a:hover#tribute-link {
-  color: #black;
-  font-size: 31px;
-  text-shadow: 1.2px 1.2px lightgrey;  }
+
+
