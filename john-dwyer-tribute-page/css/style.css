@@ -37,6 +37,7 @@ h1 {
   border-radius: 100%;
   border-style: double;
   border-width: 3px;
+  box-shadow: 30px 10px 10px 10px black;
   font-family: Sans Serif;
   font-size: 90px;
   padding-bottom: 50px;
