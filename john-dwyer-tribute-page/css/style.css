@@ -78,10 +78,10 @@ h5 {
 #tribute-link {
   color: white;
   float: right;
-  font-size: 19px;
+  font-size: 32px;
   padding-right: 200px;
   text-decoration: none;
-  text-shadow: 3px 3px black;
+  text-shadow: 2px 2px red;
   width: 160px; 
 } 
 img {
