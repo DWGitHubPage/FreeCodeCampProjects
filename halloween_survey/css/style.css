@@ -7,7 +7,7 @@ body {
 .container {
   max-width: 50em;
   margin: auto;
-  background-color: #a7f882;
+  background-image: linear-gradient(to bottom right, #23C243 0%, azure 99%);
   box-sizing: border-box;
   padding: 5em;
   border: 1.8px solid black;
