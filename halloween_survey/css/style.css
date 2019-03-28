@@ -1,18 +1,18 @@
 body {
-   background-image: url("https://i.postimg.cc/JnwT45X3/the-feast-candy-corn-promtoe.jpg");
    background-color: #cccccc;
+   background-image: url("https://i.postimg.cc/JnwT45X3/the-feast-candy-corn-promtoe.jpg");
    background-size: cover;
 }
 
 .container {
-  max-width: 50em;
-  margin: auto;
   background-image: linear-gradient(to bottom right, #23C243 0%, azure 99%);
-  box-sizing: border-box;
-  padding: 5em;
   border: 1.8px solid black;
   border-radius: 8px;
   box-shadow: 2px 2px;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 50em;
+  padding: 5em;
   text-align: center;
   text-shadow: 0.5px 0.5px green;
   position: relative;
@@ -20,20 +20,18 @@ body {
 } 
 
 h1 {
-  font-size: 3.5em;
+  animation: typing 1.5s steps(40, end),
+  blink-caret .275s step-end infinite;
+  border-right: .15em solid orange; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  font-size: 3.5em; 
+  letter-spacing: .15em; 
+  margin: 0 auto;
+  overflow: hidden; 
   text-align: center;
   text-shadow: 2px 2px orange;
   webkit-text-shadow: 5px 5px 15px 0px #000000; 
-  box-shadow: 5px 5px 15px 5px #000000;
-  
-   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 1.5s steps(40, end),
-    blink-caret .275s step-end infinite;
+  white-space: nowrap;  
 }
 
 
@@ -48,7 +46,6 @@ h1 {
   from, to { border-color: transparent 
   } 
 }
-
 
 p {
   font: 35px sans-serif, arial narrow;
@@ -65,42 +62,36 @@ p {
 }
 
  .hauntedhouse {
-   padding: 40px;
    font-weight: bold;
+   padding: 40px;
 }
+
 .rightTab {
   font-size: 2.5em;
   padding: 10px;
-  
 }
 
 
 .radio {
-  display: inline-block;
-  width: 10px;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 25px;
-  
+  left: 195px;
+  font-size: 35px;
+  position: relative;
+  width: 10px;
 }
 
 
  #preferences {
   font-size: 20px;
   margin-right: 1%;
-  
-  
-  }
+}
 
 .checkbox {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 3px;
   font-size: 1em;
-  
-
+  left: 120px;
+  padding: 4px;
+  position: relative;
 }
 
 .character {
@@ -111,9 +102,8 @@ p {
  .rowtab {
   font-family: 'Sans Serif',     
   'Raleway';
-  text-align: center;
   padding: 15px;
-  
+  text-align: center;
 }
 
 * { color: ##FF4F00; }
@@ -125,13 +115,14 @@ input, textarea, select { background-color: #00;
 }
 
 #comments {
-   font-size: 20px;
-   margin: 200px;
+  font-size: 20px;
+  margin: 200px;
 }
 
 #submit {
-  font-size: 20px;
-  text-shadow: 1px 1px white;
   border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+  font-size: 20px;
   margin: 20px;
+  text-shadow: 1px 1px white;
 }
