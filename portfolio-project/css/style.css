@@ -20,7 +20,7 @@ border:solid; */
 }
 .intro p {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   text-shadow: 1px 2px black;
 }
 
@@ -61,6 +61,7 @@ nav ul li a:hover {
 
 h1 {
   color: black;
+  font-size: 40px;
   padding: 20px;
   text-shadow: 1px 1px white;
 }
@@ -82,9 +83,9 @@ h1 {
 
 .project-pic {
   border: 1px black solid;
-  height: 65px;
-  width: 130px;
-  border-radius: 20%;
+  height: 85px;
+  width: 160px;
+  border-radius: 12%;
 }
 
 .contact-details {
@@ -100,7 +101,7 @@ h1 {
 }
 
 footer {
-  background: thistle;
+  background: skyblue;
   color: white;
   border: 1px black solid;
   border-radius: 20px;
