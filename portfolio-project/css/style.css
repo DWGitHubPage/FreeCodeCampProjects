@@ -21,6 +21,24 @@ body {
   text-shadow: 1px 2px black;
 }
 
+h1 {
+  color: black;
+  font-size: 40px;
+  padding: 4em;
+  text-shadow: .01em .04em white;
+}
+
+h2 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: .04em .04em black;
+}
+
+h3 {
+  font-size: 2em;
+  padding: 25px;
+}
+
 nav ul {
   background-color: #B0E2FF;
   text-align: right;
@@ -56,13 +74,6 @@ nav ul li a:hover {
   font-weight: normal;
   margin-top: 50px;
 }
-
-h1 {
-  color: black;
-  font-size: 40px;
-  padding: 20px;
-  text-shadow: 1px 1px white;
-}
  
 .project {
   color: #008080;
@@ -74,7 +85,7 @@ h1 {
 
 .project-title {
   color: black;
-  font-size: 15px;
+  font-size: 1em;
   text-decoration: none;
  }
 
@@ -93,9 +104,9 @@ h1 {
   display: inline-block;
   margin: 50px 70px;
   padding: 50px;
-  font-size: 25px;
+  font-size: 2em;
   text-decoration: none;
-  text-shadow: 1px 1px white;
+  text-shadow: .06em .07em white;
 }
 
 footer {
@@ -103,9 +114,9 @@ footer {
   border: 1px black solid;
   border-radius: 20px;
   color: white;
-  padding: 40px;
+  padding: 1.5em;
   text-align: left;
-  text-shadow: 1px 1px black;
+  text-shadow: .05em .05em black;
 }
 @media only screen and (max-width: 600px) {
   body {
