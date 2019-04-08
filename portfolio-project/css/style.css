@@ -13,11 +13,8 @@ body {
   background: #B0E2FF;
   min-height: 55vh;
   padding-top: 45vh;
-  /*   line-height: 100vh; */
-  /*   width:100%;
-  height:96vh;
-border:solid; */
 }
+
 .intro p {
   color: white;
   font-size: 30px;
@@ -37,6 +34,7 @@ nav ul li {
   margin-bottom: 55px;
   margin-top: 25px;
 }
+
 nav ul li a {
   border: 1px grey solid;
   border-radius: 10px;
@@ -66,13 +64,12 @@ h1 {
   text-shadow: 1px 1px white;
 }
  
-
 .project {
   color: #008080;
   display: inline-block;
-  text-decoration: none;
   margin: 135px 50px;
   width: 150px;
+  text-decoration: none;
 }
 
 .project-title {
@@ -83,9 +80,9 @@ h1 {
 
 .project-pic {
   border: 1px black solid;
-  height: 85px;
-  width: 160px;
   border-radius: 12%;
+  height: 120px;
+  width: 160px;
 }
 
 .contact-details {
@@ -96,27 +93,29 @@ h1 {
   display: inline-block;
   margin: 50px 70px;
   padding: 50px;
-  font-size: 1.5em;
+  font-size: 25px;
+  text-decoration: none;
   text-shadow: 1px 1px white;
 }
 
 footer {
   background: skyblue;
-  color: white;
   border: 1px black solid;
   border-radius: 20px;
+  color: white;
   padding: 40px;
   text-align: left;
   text-shadow: 1px 1px black;
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+  background-color: lightblue;
   }
 }
 .trail { 
-    position: absolute;
-    height: 11px; width: 11px;
-    border-radius: 50px;
-    background: royalblue;
+  background: royalblue;
+  border-radius: 50px;
+  height: 11px; 
+  position: absolute; 
+  width: 11px;
   }
