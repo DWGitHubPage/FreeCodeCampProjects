@@ -3,7 +3,6 @@
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
- 
 }
 
 .wrapper > * {
@@ -11,17 +10,18 @@
   flex: 1 100%;
   max-width: 100%;
   width: 100%;
-  
 }
 
 header {
-  background-image: linear-gradient(to   right, white, pink, pink, white);
+  background-image: linear-gradient(to right, white, pink, pink, white);
   border: 1px black solid;
   border-radius: 100px;
   font-size: 65px;
+  position: relative;
   text-align: center;
   text-shadow: 1.3px 1.3px snow;
-  transform: rotate(-3.4deg);
+  top: 7px;
+  transform: rotate(-3.1deg);
 }
 
 .main-section {
@@ -52,7 +52,6 @@ h1 {
   border: 1px black solid;   
 }
 
-
 @media all and (min-width: 600px) {
   .aside { flex: 1 0 0; }
 }
@@ -73,13 +72,15 @@ a:hover.aside {
 
 .reddit_links {
   color: black;
-  background-color: grey;
+  background-color: lightgrey;
   border: 1px solid black;
   border-radius: 7px;
   font-size: 20px;
+  padding: 5px;
   text-decoration: none;
   text-shadow: .3px .3px lightgrey;
 }
+
 a:hover.reddit_links { 
     color: black;
     font-size: 22px;
@@ -109,7 +110,6 @@ a:hover.middle_links {
 main-section, p {
   animation-duration: 2s;
   animation-name: slidein;
- 
 }
 
 @keyframes slidein {
@@ -142,12 +142,15 @@ to {
 } 
 
  body {
-  background-image: url("https://i.postimg.cc/Fsnq9bz2/c5d8df.png");
+  background: -webkit-radial-gradient(top right,rgba(248, 255, 255,1), 
+  rgba(254, 213, 230,0.1)10%, rgba(188, 249, 249,1), rgba(59, 218, 188,0.8), 
+  rgba(59, 196, 218,0.9), rgba(227, 246, 249,1));
 }
    
 code {
-  background-color: lavender;
-	display: block;
+  background-color: white;
+  box-shadow: .5px .5px 5px 1px black;
+  display: block;
   line-height: 2;
   margin: 10px;
   margin-left: 35px;
